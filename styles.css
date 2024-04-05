@@ -1,0 +1,98 @@
+body {
+    background-image: url('anhnen.jpg');
+    background-color: #9e0b0f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.greeting {
+    text-align: center;
+    padding: 20px;
+    margin: 6px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-position-y: 10px;
+    background-color: white;
+    box-shadow: 0 0 13px 1px #ff7373;
+    max-width: 90%;
+    color: #873737;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.buttons > div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    padding: 12px 18px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: transform 1s ease-in-out;
+    text-align: center;
+    border: 1px px solid white;
+    box-shadow: 0 0 19px 9px white;
+}
+
+#noBtn {
+    background-color: #120032;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#personalInfo {
+    /* display: none; Remove this line */
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 13px 1px #ff7373;
+    color: #000;
+}
+
+#personalInfo.visible {
+    display: block;
+}
+
+/* CSS cho hình ảnh */
+#image {
+    max-width: 90%;
+    height: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>QÙA LÌ XÌ CHO MỌI NGƯỜI</title>
+</head>
+<body>
+    <audio id="myAudio" controls autoplay style="display: none;">
+        <source src="xuandangtoi.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <div class="greeting" id="main">
+            <h1>Chào bạn đến năm mới rồi. Bạn có muốn nhận lì xì không?</h1>
+            <div class="buttons">
+                <div>
+                    <button id="yesBtn">NHẬN LÌ XÌ</button>
+                </div>
+                <div>
+                    <button id="noBtn">KHÔNG NHẬN</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personal Information Section -->
+        <div id="personalInfo">
+            <h2>Thông tin cá nhân</h2>
+            <p>Tên: Lê Hồng Linh</p>
+            <p>MSV: 22810310058</p>
+            <p>Email: lhl2k4@gmail.com</p>
+            <p>Số điện thoại: 0828926889</p>
+        </div>
+
+        <div>
+            <img id="image" src="" alt="">
+        </div>
+        <button style="background-color: #9e0b0f; display: none;" type="button" onclick="show()" id="btnID">Chút yêu thương</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
